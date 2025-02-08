@@ -1,0 +1,15 @@
+Usage: kpyc [OPTIONS] [FILE]
+
+A small compiler supporting the basic features of python
+
+Options:
+    -h, --help          Show help message and exit
+    -o, --output FILE   Specify the name of the final executable
+    -e, --execute       Execute after compilation
+    -d, --debug         Add debug symbols
+
+Arguments:
+    [FILE]              File with the python source-code
+
+Examples:
+    kpyc -o out in.py   Compile in.py and generate executable named out

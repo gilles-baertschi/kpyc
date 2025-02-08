@@ -1,0 +1,1 @@
+10 run -g kpyc -- input.py -deo output
